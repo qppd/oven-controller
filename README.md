@@ -228,7 +228,7 @@ All libraries are publicly available through the Arduino Library Manager.
 **Created with dedication by [qppd](https://github.com/qppd)**
 
 [![GitHub](https://img.shields.io/badge/GitHub-qppd-black?style=for-the-badge&logo=github)](https://github.com/qppd)
-[![Repository](https://img.shields.io/badge/Repository-IoT--Smart--Fan-blue?style=for-the-badge&logo=git)](https://github.com/qppd/IoT-Smart-Fan)
+[![Repository](https://img.shields.io/badge/Repository-Oven%20Controller-blue?style=for-the-badge&logo=git)](https://github.com/qppd/oven-controller)
 
 *Transforming everyday appliances into intelligent IoT solutions*
 
