@@ -55,5 +55,5 @@ void computePID() {
     } else {
         setHeaterRelay(false);
     }
-    // Humidity control placeholder – not used currently
+    
 }
