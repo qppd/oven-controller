@@ -15,7 +15,7 @@ void initBUTTONS() {
         pinMode(inputPins[i], INPUT);
         digitalWrite(inputPins[i], HIGH); // enable internal pull‑up
     }
-    delay(1000);
+    // No delay - buttons ready immediately
     Serial.println("Push Buttons: Initialized!");
 }
 

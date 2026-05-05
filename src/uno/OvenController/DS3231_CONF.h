@@ -14,14 +14,6 @@
     by multiple translation units without ODR violations. */
 extern RTC_DS3231 rtc;
 
-/*  Forward declarations of alarm callbacks that the oven logic
-    will use.  Give them meaningful names – you can implement the
-    bodies in another .cpp or directly in this file if you keep everything
-    together. */
-void ovenStartAlarm();      // called when the oven should turn on
-void ovenStopAlarm();       // called when the oven should turn off
-void ovenWeeklyMaintenance(); // optional weekly check
-
 // ---------- Public API ----------
 /*  Call this once from `setup()` (or wherever you start the controller).
     It begins the RTC, restores time on power‑loss, and seeds the alarm

@@ -52,8 +52,10 @@ void computePID() {
     // Output range is 0‑255; turn heater on proportionally within the window
     if (outputTemperature > ((millis() - windowStart) * 255UL / windowSize)) {
         setHeaterRelay(true);
+        setExhaustRelay(false);
     } else {
         setHeaterRelay(false);
+         setExhaustRelay(true);
     }
     
 }

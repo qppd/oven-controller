@@ -20,7 +20,7 @@ extern double TEMPERATURE_SETPOINT;
 // -------------------------------------------------------------------
 // Runtime variables
 // -------------------------------------------------------------------
-extern double CURRENT_TEMPERATURE;    // updated each loop from DS18B20
+extern double CURRENT_TEMPERATURE;    // updated each loop from MAX6675
 extern double outputTemperature;     // PID output for temperature
 extern double outputHumidity;         // placeholder for future humidity PID
 
